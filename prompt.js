@@ -69,14 +69,14 @@ while (i >= 0) {
 
 //Write a while loop that uses the prompt function that will continue to ask the user for the magic number until they enter the number 8.
 console.log("Prompt 11")
-var magicNumber = prompt("Whats the magic number?")
+var magicNumber = prompt("What's the Magic Number?")
 
 if (magicNumber == 8) {
-    console.log(`Congrats! you found the magic number ${magicNumber}.`)
+    console.log(`Congrats! You found the magic number ${magicNumber}.`)
 }else {
 while (magicNumber != 8) { 
     console.log(`${magicNumber} is not the magic number`)
-    magicNumber = prompt("Whats the magic number?")}}
+    magicNumber = prompt("Whats the Magic Number?")}}
 
 //Write a do while loop that iterates at least once and reiterates until i is no longer less than 5.
 console.log("Prompt 12")
